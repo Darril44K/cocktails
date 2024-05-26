@@ -1,1 +1,5 @@
-<p>cocktail-list works!</p>
+<h3 class="mb-20">Listes des Cocktails</h3>
+<ul class="mb-20 list-primary">
+    <li *ngFor="let cocktail of cocktails">{{cocktail.name}}</li>
+</ul>
+<button class="btn btn-primary">Ajouter un Cocktail</button>

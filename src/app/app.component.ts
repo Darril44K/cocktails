@@ -8,10 +8,4 @@ import { Cocktail } from './interfaces/cocktail.interface';
 })
 export class AppComponent {
   title = 'cocktails';
-
-  cocktail : Cocktail = {
-    name: 'Mojito',
-    img : 'assets/mojito.jpg',
-    description: "test"
-  }
 }
